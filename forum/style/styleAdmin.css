@@ -1,0 +1,679 @@
+#admin-login-div{
+	width: 380px;
+	 height: 280px;
+
+}
+
+.user-action{
+ padding: 10px;
+  margin: auto;
+  margin-top: 180px;
+  background: #fff;
+  border:1px solid #ccc;
+  border-radius: 5px;
+
+ padding-bottom: 0px;
+
+}
+
+.user-action > div{
+	width: 100%;
+	 float: left;
+
+}
+
+.user-action-header{
+	height: 20px;
+	 font-size: 23px;
+	 text-align: center;
+	 font-weight: bolder;
+	 color: #777;
+	 padding:4px 0px;
+	 padding-bottom: 8px;
+
+}
+
+
+.user-action-devider{
+	height: 20px;
+	 padding-top: 10px;
+	 text-align: center;
+
+}
+
+.user-action-devider > span{
+	font-size: 15px;
+	 font-weight: bolder;
+
+}
+
+
+#admin-login-div >.user-inputs{
+	height: 173px;
+
+}
+
+
+.admin-user-inputs > input{
+	width: 350px;
+	 float: left;
+	 border:1px solid #ddd;
+	 color: #888;
+	 background: #efefef;
+
+	padding: 7px 5px;
+	font-size: 14px;
+	 margin: 9px;
+	 margin-bottom: 12px;
+
+}
+
+
+.user-action-button{
+	width: 350px;
+	 float: left;
+	 border:1px solid #19a1e6;
+	 text-align: center;
+	 font-weight: bolder;
+	 font-size: 15px;
+	 color: #fff;
+	 background: #59a9e6;
+	 cursor: pointer;
+	 padding: 12px 5px;
+	 margin: 9px;
+	 margin-bottom: 12px;
+
+}
+
+.user-action-footer{
+	height: 40px;
+	 text-align: center;
+	 padding-top:
+}
+
+.user-action-footer > a{
+	color: #39a9e6;
+
+}
+
+.cancel-action{
+	padding: 4px 10px;
+	color: #fff;
+	 text-align: center;
+	 background: url(../images/vectors.png);
+	 display: block;
+	 width: 12px;
+	 height:12px;
+	 margin: auto;
+	 margin-top: 8px;
+	 cursor: pointer;
+
+}
+
+.admin-login-success{
+	width: 24px;
+	 height: 24px;
+	 float: right;
+	 margin-right: 15px;
+	 background: url(../images/ok.png);
+	 position: absolute;
+	 margin-left: 315px;
+	 margin-top: -20px;
+
+}
+
+.admin-login-loading{
+	width: 24px;
+	 height: 24px;
+	 float: right;
+	 margin-right: 15px;
+	 background-size: 24px;
+	 position: absolute;
+	 margin-left: 315px;
+	 margin-top: -20px;
+
+}
+
+
+
+.category-div > .category-top > .category-home-action{
+	visibility: hidden;
+
+}
+
+.category-div:hover > .category-top > .category-home-action{
+	visibility: visible;
+
+}
+
+
+.room-div > .room-top > .room-pending-action{
+	visibility: hidden;
+
+}
+
+.room-div:hover > .room-top > .room-pending-action{
+	visibility: visible;
+
+}
+
+
+
+/*Styling the Admin Menu*/
+
+.admin-header{
+	position: fixed;
+	 width: 100%;
+	 height: 152px;
+	 background: #59a9e6;
+	 top: 0px;
+	 left: 0px;
+	 right: 0px;
+	 z-index: 999;
+
+}
+
+.inside-admin-header{
+	height :125px;
+	 padding-right: 15px;
+	 padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	 max-width: 1200px;
+
+}
+
+.admin-logo{
+	width: 300px;
+	 height: 100px;
+	 float: left;
+	  margin-top: 10px;
+
+}
+
+#site-name{
+	font-weight: bold;
+	 color: #fff;
+	 font-size: 48px;
+	  text-shadow: 0px 0px 9px #aaa;
+
+}
+
+#site-name-admin{
+	font-weight: bold;
+	 text-shadow: 0px 0px 6px #FFFF33;
+	 color: #FFFF00;
+	 font-size: 30px;
+	 display: block;
+	 float: right;
+	 margin-right: 45px;
+	 margin-top: -10px;
+
+}
+
+
+.admin-user-right{
+	width: 300px;
+	 height: 100px;
+	 float: right;
+	 margin-top: 5px;
+
+}
+
+.admin-avatar{
+	width: 65px;
+	 height: 65px;
+	 float: right;
+	 margin: 10px;
+	 padding: 5px;
+	 margin-left: 0px;
+
+}
+
+.admin-avatar > img{
+	width: 65px;
+	 height: 65px;
+
+}
+
+.admin-info-top{
+	width: 200px;
+	 float: left;
+	 height: 70px;
+	 padding-top: 10px;
+	 margin-top:6px;
+	 margin-right: 5px;
+
+}
+
+.admin-name{
+	display: block;
+	 float: right;
+	 width: 200px;
+	 text-align: right;
+	 color: #fff;
+	  font-size: 14px;
+	 margin-bottom: 4px;
+
+}
+
+.admin-name > span{
+	font-weight: bolder
+}
+
+.admin-as{
+	display: block;
+	 float: right;
+	 width: 200px;
+	 text-align: right;
+	 color: #fff;
+	  font-size: 12px;
+	  height: 10px;
+
+}
+
+.admin-as > span{
+	color: #666;
+
+}
+
+.admin-info-top > a{
+	float: right;
+	margin-top:0px;
+	 -webkit-transform:scale(.8);
+	 -moz-transform:scale(.8);
+	 -o-transform:scale(.8);
+	 -ms-transform:scale(.8);
+	 transform:scale(.8);
+	 display: block;
+
+}
+
+
+
+
+.admin-menu{
+ width: 1155px;
+   height :60px;
+  padding-right: 15px;
+  padding-left: 15px;
+ margin-right: auto;
+ margin-left: auto;
+  position: absolute;
+  margin-top: 120px;
+text-align: center;
+border: 1px solid #DDD;
+
+
+}
+
+.menu-gradient{
+	background: #DDD;
+	   background: -webkit-linear-gradient(#FEFEFE,#DDD);
+
+ 	background: -moz-linear-gradient(#FEFEFE,#DDD);
+ 	background: -o-linear-gradient(#FEFEFE,#DDD));
+
+background: linear-gradient(#FEFEFE,#DDD);
+ background: -ms-linear-gradient(#FEFEFE,#DDD);
+   box-shadow: 1px 1px 8px #aaa;
+
+}
+
+
+.admin-menu-item{
+	display: inline-block;
+	 margin-top: 15px;
+	 margin-left: 48px;
+	 opacity: .9
+}
+.admin-menu-item:first-of-type{margin-left: 0px;}
+
+.admin-menu-icon{
+	width: 27px;
+	 height: 26px;
+	 float: left;
+	 background: red;
+	 margin-right:6px;
+	 background: url(../images/adminVectors.png);
+
+}
+
+.admin-menu-item-name{
+	display: block;
+	 float: left;
+	  color: #666;
+	  font-size: 19px;
+	 margin-top: 2px;
+
+}
+
+
+/*right bar of the stats styling*/
+#right-container-admin{
+	width: 300px;
+	 min-height: 100px;
+	 background: #fff;
+	 border:1px solid #ccc;
+	 float: right;
+	 overflow: auto;
+	 margin-bottom: 20px;
+	 background: #eee;
+
+}
+
+.side-title-admin{
+	width: 280px;
+	 float: left;
+	 height: 20px;
+	 padding: 10px;
+	 padding-top:12px;
+	 border-bottom: 1px solid #ccc;
+	 font-weight: bolder;
+	 color: #000;
+	 font-size: 14px;
+
+}
+
+.stats-row{
+	width: 270px;
+	 margin-left: 15px;
+	 border-bottom: 1px dotted #ccc;
+	 float: left;
+	 padding-bottom: 6px;
+	 height: 20px;
+	 padding-top: 10px;
+
+}
+
+.stats-row-left{
+	display: block;
+	 float: left;
+	 color: #777;
+	 margin-left: 2px;
+
+}
+
+.stats-row-right{
+	display: block;
+	 float: right;
+	 color: #777;
+	 font-weight: bolder;
+	  margin-right: 2px;
+
+}
+
+
+.create-new{
+	float: left;
+	 width: 290px;
+	 height: 23px;
+	 padding: 5px;
+	 color: #444;
+	 margin-bottom: 10px;
+
+	border:1px solid #ccc;
+	 background: #eaeaea;
+	 font-weight: bolder;
+	  text-align: center;
+	 cursor: pointer;
+	 padding-top: 10px;
+
+}
+
+
+
+/*Admin div styling*/
+.admin-div,.user-div{
+	width: 200px;
+	 height: 300px;
+	 float: left;
+	 background: #fff;
+	 border:1px solid #ccc;
+	 margin-right: 20px;
+	 margin-left: 5px;
+	 margin-bottom: 20px;
+
+}
+
+.admin-top,.user-top{
+	width: 200px;
+	 height: 200px;
+	 float: left;
+	 border-bottom: 1px solid #ccc;
+
+}
+
+.admin-top > img,.user-top > img{
+	width: 200px;
+	 height: 200px;
+	 float: left;
+
+}
+
+.admin-role-top,.user-status-top{
+	width: 180px;
+	 padding: 10px;
+	 float: left;
+	 display: block;
+	 position: absolute;
+	 color: #fff;
+	 background: rgba(0,0,0,0.7);
+
+}
+
+.admin-role-top > span,.user-status-top > span{
+	font-weight: bolder;
+	 font-size: 14px;
+
+}
+
+.admin-bottom,.user-bottom{
+	width: 200px;
+	 height: 99px;
+	 float: left;
+
+}
+
+.admin-name-display,.user-name-display{
+	width: 190px;
+	 float: left;
+	 font-weight: bolder;
+	 color: #444;
+	 padding: 5px;
+	 font-size: 14px;
+	 height: 10px;
+	 margin-left: 6px;
+
+}
+
+.admin-action,.user-action-admin{
+	width: 190px;
+	 height: 65px;
+	 float: left;
+	 padding: 5px;
+	 padding-bottom: 0px;
+
+}
+
+.delete-admin,.delete-user{
+ width: 167px;
+  margin-left: 5px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  float: left;
+  font-weight: bolder;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+
+}
+
+.role-admin-change-select,.status-user-change-select{
+ width: 169px;
+  margin-left: 5px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  float:left;
+  font-weight: bolder;
+   padding-top: 3px;
+
+}
+
+.role-admin-change-select > select,.status-user-change-select > select{
+	width: 168px;
+
+}
+
+
+.enable{color: #7BB661;}
+.disable{color:red;}
+
+#users-admin-filter-div{width: 100px; display: inline-block; margin-left: 10px;}
+#users-admin-filter-div select{width: 100px;}
+/*Admin Profile Setting Styling*/
+#admin-profile-div{
+	width: 580px;
+	 height: 340px;
+	  padding: 10px;
+	 margin: auto;
+	 margin-top: 150px;
+	 background: #fff;
+	 border:1px solid #ccc;
+	 border-radius: 5px;
+
+ padding-bottom: 0px;
+
+}
+
+#create-admin-div{
+	height: 385px;
+
+}
+
+
+.admin-profile-header,.admin-profile-devider,.admin-profile-footer{
+	width: 100%;
+	 float: left;
+
+}
+
+.admin-profile-header{
+	height: 20px;
+	 font-size: 23px;
+	 text-align: center;
+	 font-weight: bolder;
+	 color: #777;
+	 padding:4px 0px;
+	 padding-bottom: 8px;
+
+}
+
+.admin-profiledevider{
+	height: 20px;
+	 padding-top: 10px;
+	 text-align: center;
+
+}
+
+
+.admin-profile-inputs{
+	height: 243px;
+	 width: 370px;
+	 float: right;
+
+}
+
+.admin-profile-avatar-change{
+	width: 200px;
+	 height: 200px;
+	 float: left;
+	 margin-top: 9px;
+
+}
+
+.admin-profile-avatar-change > img{
+	width: 200px;
+	 height: 200px;
+	 float: left;
+
+}
+
+.admin-profile-inputs > input[type="text"]{
+	width: 350px;
+	 float: left;
+	 border:1px solid #ddd;
+	 color: #888;
+	 background: #efefef;
+	 	padding: 7px 5px;
+	 	font-size: 14px;
+	 margin: 9px;
+	 margin-bottom: 12px;
+
+}
+
+
+.admin-profile-inputs > input[type="password"]{
+	width: 160px;
+	 float: left;
+	 border:1px solid #ddd;
+	 color: #888;
+	 background: #efefef;
+	 	padding: 7px 5px;
+	 	font-size: 14px;
+	 margin-left: 9px;
+	 margin-bottom: 12px;
+	 margin-top: 9px;
+
+}
+
+.admin-profile-inputs > input[type="password"]:last-of-type{
+	margin-left: 16px;
+
+}
+
+
+#admin-profile-button{
+	width: 350px;
+	 float: left;
+	 border:1px solid #19a1e6;
+	 text-align: center;
+	 font-weight: bolder;
+	 font-size: 15px;
+	 color: #fff;
+
+	background: #59a9e6;
+	 cursor: pointer;
+	 padding: 12px 5px;
+	 margin: 9px;
+	 margin-bottom: 12px;
+
+}
+
+.admin-profile-footer{
+	height: 40px;
+	 text-align: center;
+
+}
+
+.admin-profile-footer > a{
+	color: #39a9e6;
+
+}
+
+.admin-profile-admin{
+	padding: 4px 10px;
+	color: #fff;
+	 text-align: center;
+	 background: url(../images/vectors.png);
+	 display: block;
+	 width: 12px;
+	 height:12px;
+	 margin: auto;
+	 margin-top: 8px;
+	 cursor: pointer;
+
+}
+

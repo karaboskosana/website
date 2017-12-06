@@ -1,0 +1,1 @@
+[31-Oct-2017 08:34:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/digitita/public_html/trainers/classes/Smiley.php:2) in /home/digitita/public_html/trainers/api/api.php on line 541

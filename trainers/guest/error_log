@@ -1,0 +1,4 @@
+[30-Oct-2017 08:51:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/digitita/public_html/trainers/guest/categories-list-guest.php on line 78
+[30-Oct-2017 08:51:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/digitita/public_html/trainers/guest/categories-list-guest.php on line 78
+[30-Oct-2017 08:51:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/digitita/public_html/trainers/guest/index.php on line 41
+[30-Oct-2017 08:51:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/digitita/public_html/trainers/guest/categories-list-guest.php on line 78

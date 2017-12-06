@@ -1,0 +1,2721 @@
+body{
+	background:#e9eaed;
+
+}
+/*
+=============================================================================================================
+=============================================================================================================
+========================================= CONNECTED HEADER DEISGN ===========================================
+=============================================================================================================
+=============================================================================================================
+*/
+.connected-header{
+	position: fixed;
+	 left: 0px;
+	 right:0px;
+	 top:0px;
+	 height: 62px;
+	 background: #59a9e6;
+	  z-index: 9999;
+
+}
+
+#inside-connected-header{
+	height :50px;
+	 padding-right: 15px;
+	 padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	 max-width: 1200px;
+	 padding-top: 5px;
+
+}
+
+.about-par{
+	font-size: 12px;
+}
+
+#connected-logo{
+	width: 140px;
+	 height: 49px;
+	 float: left;
+
+}
+
+#connected-logo > span{
+	font-size: 24px;
+	 color: #fff;
+	 font-weight: bolder;
+	 font-style: italic;
+	 display: block;
+	 float: left;
+	 margin-top: 10px;
+	 text-shadow:2px 5px 5px #09a9e6;
+
+}
+
+
+#menu-header{
+	width: 580px;
+	  height: 30px;
+	 float: left;
+	  margin-top: 10px;
+
+}
+
+#search-top-bar{
+	width: 180px;
+	 background:#7CB9EB;
+	 border:0px;
+	 padding: 6px;
+	 margin-left: 20px;
+	 color: #fff;
+	 border-radius: 5px;
+
+}
+
+#search-top-bar-responsive{
+	width: 90%;
+	 background:#7CB9EB;
+	 border:0px;
+	 padding: 6px;
+	 margin: auto;
+	 color: #fff;
+	 border-radius: 5px;
+
+}
+
+
+#menu-header > a{
+	display: block;
+	 float: left;
+	 color: #AFCFF9;
+	 font-size: 18px;
+	 margin-left: 20px;
+	 margin-top: 4px;
+
+}
+
+#menu-header > a > .menu-icone{
+	float: left;
+	 margin-right: 5px;
+
+}
+
+#menu-header > a > span{
+	display: block;
+	 float: left;
+
+}
+
+#menu-header > a:hover{
+	color: #0d70bc;
+
+}
+
+
+#connected-user-header{
+	max-width: 900px;
+	  height: 49px;
+	 float: right;
+	 border-radius: 80px;
+
+}
+
+#connected-user-avatar,#connected-user-avatar-responsive{
+	cursor:pointer;
+	width: 45px;
+	 height: 45px;
+	 float: left;
+	 border-radius: 80px;
+	 margin-top: 1px;
+
+}
+
+#connected-user-avatar-responsive{
+	display: none;
+	 margin-right: 10px;
+
+}
+
+#connected-user-header  > a{
+	font-size: 18px;
+	 color: #fff;
+	 font-weight: bolder;
+	 display: block;
+	 float: left;
+	 margin-left: 13px;
+ 	margin-top: 13px;
+
+}
+
+
+.small-top-bar-icones{
+	width: 24px;
+	 height: 24px;
+	 float: left;
+	  margin-left: 5px;
+	 background: url(../images/vectors.png);
+
+}
+
+.report-icon{
+	-webkit-transform:scale(.7);
+	 -moz-transform:scale(.7);
+	 -o-transform:scale(.7);
+	 -ms-transform:scale(.7);
+	 transform:scale(.7);
+	 margin-top: -5px;
+	 cursor: pointer;
+
+}
+
+
+#log-out-user{
+	background-position:-31px 0px;
+	 margin-top: 11px;
+
+}
+
+#notification-user{
+	background-position:-61px 0px;
+	 margin-top: 11px;
+	 margin-left: 20px;
+
+}
+
+
+#notification-number{
+	display: block;
+	width: 18px;
+	 height: 16px;
+	 padding-right: 1px;
+	 padding-top: 2px;
+	 border-radius: 100px;
+	 margin-top: -12px;
+	 margin-left: 8px;
+
+	position: absolute;
+	 font-weight: normal;
+	 font-size: 11px;
+	 text-align: center;
+	 color: #fff;
+
+}
+
+
+#No-Result{
+	color: #333;
+	 font-size: 13px;
+	 font-weight: bolder;
+
+}
+
+#No-Result > strong{
+	color: red;
+	 text-decoration: underline;
+
+}
+
+/*
+=============================================================================================================
+=============================================================================================================
+========================================= CONATIANER PAGE DESIGN ===========================================
+=============================================================================================================
+=============================================================================================================
+*/
+#container{
+	width: 1200px;
+	 min-height: 400px;
+	 overflow: auto;
+	 margin: auto;
+
+}
+
+
+#left-container{
+	width: 880px;
+	 min-height: 400px;
+	 float: left;
+	 overflow: auto;
+
+}
+
+#side_bar_right{
+	width: 302px;
+	 min-height: 290px;
+	  float: right;
+	 overflow: auto;
+	 margin-top: 50px;
+
+}
+
+#side_bar_right_admin{
+	width: 302px;
+	 min-height: 290px;
+	  float: right;
+	 overflow: auto;
+	 margin-top: 50px;
+	  margin-right: 10px;
+
+}
+
+
+#right-container,#publicity-right{
+	width: 300px;
+	 min-height: 100px;
+	 background: #fff;
+	 border:1px solid #ccc;
+	 float: right;
+	 overflow: auto;
+	 margin-bottom: 20px;
+
+}
+
+.see-more-wide-div{
+	width: 850px;
+	 float: left;
+	 min-height: 30px;
+	 overflow: auto;
+
+}
+
+
+#advetising-div{
+	width: 280px;
+	 height: 250px;
+	 margin: 10px;
+	 float: left;
+	 background: #eee;
+	 color: #777;
+	 font-size: 38px;
+	 font-weight: bolder;
+	 text-align: center;
+
+}
+
+
+.left-container-section-title{
+	width: 838px;
+	 height: 30px;
+	 float: left;
+	  font-weight: bold;
+	 font-size: 17px;
+	 color: #444;
+	  padding: 5px;
+
+}
+
+.left-container-section-title > a{
+	font-size: 14px;
+	 color:#59a9e6;
+	 text-decoration: underline;
+
+}
+
+
+.last-categories-list,.last-admins-list,.last-rooms-list,#subjects-list,.notification-page-list,.last-users-list{
+	width: 880px;
+	 min-height: 400px;
+	 float: left;
+	 overflow: auto;
+
+}
+
+
+.category-div{
+	width: 230px;
+	 height: 270px;
+	 margin: 10px;
+	 margin-left: 0px;
+	 margin-right: 50px;
+	 background: #fff;
+	 border:1px solid #ccc;
+	 border-bottom: 3px solid #59a9e6;
+	 float: left;
+
+}
+
+.category-top{
+	width: 230px;
+	 height: 200px;
+	 float: left;
+	 background-size: 230px 200px;
+
+}
+
+.category-bottom{
+	width: 230px;
+	 height: 65px;
+	 margin-top: 5px;
+	 float: left;
+
+}
+
+.category-name{
+	display: block;
+	 float: left;
+	 margin-left: 5px;
+	 margin-top: 10px;
+	 font-size: 15px;
+	 color: #333;
+	 font-weight: bolder;
+	 width: 230px;
+	 height: 20px;
+
+}
+
+.category-room-information{
+	width: 230px;
+	 height: 30px;
+	 margin-top: 2px;
+	 float: left;
+
+}
+
+.category-room-icon{
+	width: 30px;
+	 height: 30px;
+	 float: left;
+	 background-position:-183px 3px;
+	 margin-top: -2px;
+
+}
+
+.category-room-number{
+	display: block;
+	 float: left;
+	 font-size: 13px;
+	 font-weight: bolder;
+	 margin: 4px;
+	 margin-left: 4px;
+	 color: #333;
+
+}
+
+
+
+.room-div{
+	width: 230px;
+	 height: 300px;
+	 margin: 10px;
+	 display: block;
+	 margin-left: 0px;
+	 margin-right: 50px;
+	 background: #fff;
+	 border:1px solid #ccc;
+	 border-bottom: 3px solid #59a9e6;
+	 float: left;
+
+}
+
+.room-top{
+	width: 230px;
+	 height: 200px;
+	 float: left;
+	 background-size: 230px 200px;
+
+}
+
+.room-category-name{
+	width: 220px;
+	 height: 20px;
+	 float: left;
+	 padding: 5px;
+	 background: rgba(0,0,0,0.5);
+	 color: #fff;
+	 font-weight: bolder;
+
+}
+
+.room-pending-action,.category-home-action{
+	width: 220px;
+	 height: 23px;
+	 float: left;
+	 padding: 5px;
+	 background: rgba(0,0,0,0.5);
+	 color: #fff;
+	 margin-top: 137px;
+
+}
+
+.room-pending-action > div,.category-home-action > div{
+	width: 80px;
+	 float: left;
+	 text-align: center;
+	 cursor: pointer;
+	 margin-right: 15px;
+	 padding-top: 2px;
+	 padding-bottom: 4px;
+
+}
+
+.category-home-action{
+	margin-top: 167px;
+
+}
+
+
+.room-bottom{
+	width: 230px;
+	 height: 95px;
+	 margin-top: 5px;
+	 float: left;
+
+}
+
+.room-name{
+	display: block;
+	 float: left;
+	 margin-left: 10px;
+	 margin-top: 5px;
+	 font-size: 15px;
+	 color: #333;
+	 font-weight: bolder;
+	 width: 230px;
+	 height: 20px;
+
+}
+
+.room-information{
+	width: 230px;
+	 height: 60px;
+	 margin-top: 2px;
+	 float: left;
+
+}
+
+.category-room-icon{
+	width: 28px;
+	 height: 28px;
+	 float: left;
+	 background-position:-183px 1px;
+
+}
+
+.category-room-number{
+	display: block;
+	 float: left;
+	 font-size: 13px;
+	 font-weight: bolder;
+	 margin: 4px;
+	 margin-left: 4px;
+	 color: #333;
+
+}
+
+.room-indormation-insider-row{
+	width: 230px;
+	 height: 30px;
+	 float: left;
+	 margin-bottom: 5px;
+
+}
+
+
+.room-subjects-icon{
+	width: 21px;
+	height: 27px;
+	margin-right: 10px;
+	float: left;
+	background-position: -211px 1px;
+
+}
+
+.room-followers-icon{
+	width: 26px;
+	height: 30px;
+	float: left;
+	background-position: -226px 3px;
+	 margin-top: -2px;
+	 margin-right: 6px;
+
+}
+
+
+#UserNameTopBar:hover{
+	text-decoration: underline;
+
+}
+
+.see-more-home{
+	display: block;
+	 float: right;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+	 height: 20px;
+
+ padding: 3px 10px;
+  padding-top: 5px;
+  font-weight: bolder;
+  margin-right: 55px;
+  border:1px solid #59a9e6;
+  background: #077fff;
+  color: #fff;
+
+}
+
+
+.see-more-other-pages{
+	display: block;
+	 margin: auto;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+	 height: 20px;
+	 width: 90px;
+
+ padding: 3px 10px;
+  padding-top: 5px;
+  font-weight: bolder;
+   border:1px solid #59a9e6;
+  background: #077fff;
+  color: #fff;
+
+}
+
+.see-more-other-pages > span{
+	font-weight:bold;
+	 font-size:28px;
+	 position:absolute;
+	 margin-top: -11px;
+	 margin-left: 5px;
+
+}
+
+
+
+
+/*THE RIGHT NOTIFICATION DIV THAT WILL DISPLAY $ OF THE LAST NOTIFICATIONS*/
+.right-notification-design{
+	width: 60px;
+	 height: 60px;
+	 position: absolute;
+	 float: left;
+	 background: url(../images/notification-right.png);
+	 background-size: 60px;
+
+ margin-left: 257px;
+  margin-top: -15px;
+  border-radius: 100px;
+
+}
+
+
+
+.side-title{
+	width: 280px;
+	 float: left;
+	 height: 20px;
+	 padding: 10px;
+	 padding-top:12px;
+	 background: #efefef;
+	 border-bottom: 1px solid #ccc;
+	 font-weight: bolder;
+	 color: #000;
+	 font-size: 14px;
+
+}
+
+
+.notification-right{
+	width: 280px;
+	 height: 60px;
+	  float: left;
+	 margin-left: 10px;
+	 display: block;
+	   border-bottom: 1px solid #ccc;
+	 color: #222;
+
+}
+
+.notification-right:last-of-type{
+	border-bottom: 0px;
+
+}
+
+.notification-right-user-avatar{
+	width: 55px;
+	 height:55px;
+	 float: left;
+	 border-radius: 80px;
+
+}
+
+.notification-right-user-avatar img{
+	width: 55px;
+	 height: 55px;
+	 float: left;
+	 border-radius: 80px;
+	 float: left;
+
+}
+
+
+.notification-right-text{
+	width: 215px;
+	 float: right;
+	 height: 60px;
+
+}
+
+.notification-right-user-name{
+	width:200px;
+	 display: block;
+	 float: left;
+	 font-weight: bolder;
+	 color: #077fff;
+
+}
+
+.notification-right-what-done{
+	display: block;
+	 float: left;
+	 color: #444;
+	 font-size: 12px;
+	 margin-top: 3px;
+	 width: 210px;
+	 font-weight: normal;
+
+}
+
+.notification-right-user-date{
+	display: block;
+	 float: left;
+	 color: #666;
+	 font-size: 12px;
+	 margin-top: 3px;
+	 width: 210px;
+
+}
+
+.notfication-what-icon{
+float: left;
+ width: 20px;
+ height: 20px;
+ margin-left: 0px;
+ margin-top: -2px;
+ /* for comments background-position: -9px -30px;
+*/ /* for likes background-position: -36px -29px;
+*/
+}
+
+.notification-right-user-name > span{
+  color: #444;
+   font-size: 10px;
+   font-weight: normal;
+   margin-left: 10px;
+
+}
+
+.delete-notification{
+	font-weight: bolder;
+	 display: block;
+	 float: right;
+	 width: 15px;
+	 height: 15px;
+
+}
+
+
+/*
+//list of subjects design
+*/
+#subject-room-top-div,#notifications-top-div{
+	min-width: 1200px;
+	 left:0px;
+	 right:0px;
+	 z-index: 1;
+	 height: 100px;
+	 border-bottom: 1px solid #ccc;
+
+	border-top: 1px solid #ccc;
+	 background: #dedede;
+	 margin-top: 80px;
+
+}
+
+
+#subject-room-div-insider,#notifications-top-div-insider{
+	width: 1200px;
+	 height: 100px;
+	 margin: auto;
+
+}
+
+#room-image-display{
+	width: 100px;
+	 background-size:100px 100px;
+	  height: 100px;
+	 float: left;
+	 margin-right: 10px;
+
+}
+
+#room-image-display > img{
+	width: 100px;
+	 height: 100px;
+	 float: left;
+
+}
+
+
+#room-name-display,#title-header{
+	font-size: 28px;
+	 margin-top: 25px;
+	 font-weight: bolder;
+	 float: left;
+	 color: #222;
+
+}
+
+#room-subject-number-display{
+	height: 14px;
+	 padding: 5px;
+	 float: left;
+	 background: #eaeaea;
+	 border:1px solid #ccc;
+	 font-size: 12px;
+
+	font-weight: bolder;
+	 margin-top: 30px;
+	 margin-left: 21px;
+
+}
+
+#room-some-followers{
+	width: 320px;
+	 height: 30px;
+	 float: left;
+	 position: absolute;
+	 margin-top: 65px;
+	 margin-left: 110px;
+
+}
+
+#room-some-followers > img{
+	width: 30px;
+	 height: 30px;
+	 float: left;
+	 margin-right: 15px;
+
+}
+
+
+#room-subject-sort-by{
+	width: 200px;
+	 height: 30px;
+	 float: right;
+	 margin-top: 35px;
+
+}
+
+#room-subject-sort-by > span{
+	display:  block;
+	 float: left;
+	 font-weight: bolder;
+	 margin-top: 6px;
+	 margin-right: 10px;
+
+}
+
+#room-subject-sort-by > select{
+	display:  block;
+	  float: left;
+	  margin-top: 5px;
+	 width: 80px;
+
+}
+
+
+#create-new-subject{
+	position: absolute;
+	 width: 130px;
+	 height: 19px;
+	 padding: 5px;
+	 color: #444;
+	 margin-left: 1000px;
+	 margin-top: 65px;
+
+	border:1px solid #ccc;
+	 background: #eaeaea;
+	 font-weight: bolder;
+	  text-align: center;
+	 cursor: pointer;
+	 padding-top: 6px;
+
+}
+
+
+#Follow-Room{
+	position: absolute;
+	 width: 100px;
+	 height: 19px;
+	 padding: 5px;
+	 color: #444;
+	 margin-left: 860px;
+	 margin-top: 65px;
+
+	border:1px solid #ccc;
+	 background: #eaeaea;
+	 font-weight: bolder;
+	  text-align: center;
+	 cursor: pointer;
+	 padding-top: 6px;
+
+}
+/*
+=============================================================================================================
+=============================================================================================================
+========================================= Subject elements Design ===========================================
+=============================================================================================================
+=============================================================================================================
+*/
+
+#subjects-list{
+	margin-top: 50px;
+	 width: 850px;
+
+}
+
+.subject{
+	width: 830px;
+	 min-height: 70px;
+	 float: left;
+	 background: #fff;
+	 border:1px solid #ccc;
+	 padding-bottom: 15px;
+	 margin-bottom: 30px;
+
+}
+
+.subject-user-avatar{
+	width: 63px;
+	 height: 63px;
+	 float: left;
+	  position: absolute;
+	 margin-top: -20px;
+	 margin-left: -20px;
+	 border-radius: 100px;
+
+}
+
+.subject-user-avatar img{
+	width: 60px;
+	 height: 60px;
+	 float: left;
+	 border:3px solid #fff;
+	 border-radius: 100px;
+
+}
+
+.subject-user-info-date,.subject-actions{
+	width: 760px;
+	 margin-right: 20px;
+	 float: right;
+	 height: 20px;
+	 margin-top: 10px;
+
+}
+
+.subject-user-fullname{
+	font-weight: bolder;
+	 font-size: 14px;
+	 float: left;
+	 display: block;
+	 color: #004FFF;
+
+}
+
+.subject-display-date{
+	color: #888;
+	 display: block;
+	 float: right;
+	 font-size: 11px;
+
+}
+
+.subject-title-and-text{
+	width: 760px;
+	 font-size: 13px;
+	 margin-right:20px;
+	 float: right;
+	 min-height: 10px;
+	 overflow: auto;
+	 margin-top: 5px;
+	 color: #222;
+
+}
+
+.subject-display-tilte{
+	font-size: 14px;
+	 font-weight: bolder;
+	 color: #00308F;
+	 text-decoration: underline;
+
+}
+
+
+.subject-actions{
+	margin-top: 5px;
+	 height: 25px;
+
+}
+
+.subject-actions-left{
+	width: 300px;
+	 height: 25px;
+	 float: left;
+
+}
+
+.subject-actions-left > div{
+	float: left;
+	 width: 22px;
+	 height: 20px;
+	 margin: 0px;
+	 margin-right: 3px;
+	 -webkit-transform:scale(.8);
+	 -moz-transform:scale(.8);
+	 -o-transform:scale(.8);
+	 -ms-transform:scale(.8);
+	 transform:scale(.8);
+
+}
+
+.subject-actions-comment{
+	background-position:-114px -27px;
+	 cursor: pointer;
+
+}
+
+.subject-actions-like{
+cursor: pointer;
+/*liked background-position: -60px -27px*/ /*not like background-position: -85px -27px;
+*/
+}
+
+.subject-actions-share{
+	background-position: -204px -27px;
+	  cursor: pointer;
+
+}
+
+.subject-actions-right{
+	min-width: 20px;
+	 float: right;
+	 height: 25px;
+
+}
+
+.subject-close{
+	background-position: -203px -27px;
+	 cursor: pointer;
+
+}
+
+.subject-delete{
+	background-position: -178px -27px;
+	  cursor: pointer;
+
+}
+
+
+.subject-actions-right > span{
+	display: block;
+	 float: left;
+	 color: #777;
+	 font-size: 11px;
+	 text-align: right;
+	 margin-top: 3px;
+
+}
+
+.how-many-subject-likes > span{
+	color: #004FFF;
+	 font-weight: bolder;
+
+}
+
+.how-many-subject-likes{
+ border-right:1px solid #999;
+  margin-right: 8px;
+  padding-right: 8px;
+
+}
+
+.see-all-subject-comments > a{
+	color: #004FFF;
+	 font-weight: bolder;
+
+}
+
+.see-all-subject-comments > a:hover{
+	text-decoration: underline;
+
+}
+
+
+.subject-action-state{
+	width: 22px;
+	 height: 22px;
+	 float: left;
+	 cursor:pointer;
+	 margin: 0px;
+	 margin-left: 4px;
+	 margin-top: -3px;
+	 -webkit-transform:scale(.8);
+	 -moz-transform:scale(.8);
+	 -o-transform:scale(.8);
+	 -ms-transform:scale(.8);
+	 transform:scale(.8);
+
+}
+
+.subject-edit{
+	background-position: -285px -27px;
+	  cursor: pointer;
+	  -webkit-transform:scale(.7);
+	 -moz-transform:scale(.7);
+	 -o-transform:scale(.7);
+	 -ms-transform:scale(.7);
+	 transform:scale(.7);
+
+}
+
+
+.share-show-social{
+	width: 110px;
+	 height: 25px;
+	 padding: 2px;
+	 background:#f1f1f1;
+	 position: absolute;
+	 margin-left: 30px;
+	 margin-top: -3px;
+	 border-bottom: 0px;
+	 display: none
+}
+
+.share-show-social > a{
+	display: block;
+	 float: left;
+	 margin-right: 5px;
+	 width: 22px;
+	 height: 22px;
+	 background: url(../images/share.png);
+
+}
+
+.share-show-social:after{
+	content: '';
+	 top: 3px;
+	 left: -10px;
+	 position: absolute;
+	 border-right:10px solid #f1f1f1;
+	 border-bottom:10px solid transparent;
+	 border-top:10px solid transparent;
+
+}
+
+/*
+=============================================================================================================
+=============================================================================================================
+========================================= Comment elements Design ===========================================
+=============================================================================================================
+=============================================================================================================
+*/
+
+.subject-last-comments{
+	width: 790px;
+	 float: right;
+	 margin-right: 20px;
+	 margin-top: 3px;
+	 min-height: 0px;
+	 overflow: auto;
+	 background: #eee;
+
+}
+
+.comment{
+	width:770px;
+	 margin-left: 10px;
+	 float: left;
+	 margin-bottom: 4px;
+	 min-height: 10px;
+	 overflow: auto;
+	  padding-bottom: 5px;
+	 border-bottom: 1px solid #ccc;
+
+}
+
+.comment-user-avatar{
+	width: 45px;
+	 height: 45px;
+	 float: left;
+	 border:2px solid #fff;
+	 border-radius: 100px;
+	 margin: 5px;
+	 margin-left: 0px;
+
+}
+
+.comment-user-avatar > img{
+ width: 45px;
+  height: 45px;
+  float: left;
+  border-radius: 100px;
+
+}
+
+.comment-user-info-date{
+	width: 700px;
+	 float: left;
+	 height: 15px;
+	  margin-top: 12px;
+
+}
+
+.comment-user-fullname{
+	font-weight: bolder;
+	 color: #004FFF;
+	 display: block;
+	 float: left;
+	 margin-right: 10px;
+
+}
+
+.comment-display-date{
+	color: #888;
+	 display: block;
+	 float: left;
+	 font-size: 12px;
+
+}
+
+.comment-display-text{
+	width: 710px;
+	 float: left;
+	 min-height: 10px;
+	 overflow: auto;
+	 color: #111;
+	 margin-top: 3px;
+
+}
+
+.comment-display-like{
+	display: block;
+	 float: left;
+	 color: #004FFF;
+	 cursor: pointer;
+
+}
+
+.comment-like-number{
+	display: block;
+	 float: left;
+	 margin-right: 5px;
+	 color:  #004FFF;
+
+}
+
+.comment-display-like:hover{
+	text-decoration: underline;
+
+}
+
+.delete-comment,.choose-best-comment{
+	color: #004FFF;
+	 font-size: 11px;
+	 opacity:0;
+	 margin-left:5px;
+	 display: block;
+	 float: left;
+	 cursor: pointer;
+
+}
+
+.choose-best-comment:hover{
+	text-decoration: underline;
+
+}
+
+.comment:hover > .comment-user-info-date > .delete-comment , .comment:hover > .comment-user-info-date >.choose-best-comment{
+	opacity: 1
+}
+
+
+.delete-comment{
+	width: 17px;
+	 height: 11px;
+	 padding-bottom: 6px;
+	  color: #fff;
+	 border-radius: 60px;
+	 text-align: center;
+	 font-size: 12px;
+	 font-weight: bolder;
+	 background: rgba(0,0,0,0.7);
+
+}
+
+
+.load-more-subject-comments{
+	width: 810px;
+	 float: left;
+	 text-align: right;
+	 margin-top: 10px;
+
+}
+
+.load-more-subject-comments > span{
+	color: #004FFF;
+	 cursor: pointer;
+	 font-weight: bolder;
+
+}
+
+.load-more-subject-comments > span:hover{
+	text-decoration: underline;
+
+}
+
+
+.subject-add-quick-comment{
+	width: 790px;
+	 float: right;
+	 margin-right: 20px;
+	 min-height: 50px;
+	 overflow: auto;
+	 background: #eee;
+
+}
+
+.subject-quick-comment-textarea{
+	width: 758px;
+	 color: #888;
+	 float: left;
+	 margin-left: 10px;
+	 height: 20px;
+	 padding: 5px;
+	 margin-top: 9px;
+	 border:1px solid #ccc;
+
+}
+
+.subject-quick-comment-textarea:focus{
+	color: #222;
+
+}
+
+.loadin-more{
+	width: 24px;
+	 height: 24px;
+	 float: left;
+	 background-size: 24px;
+	 position: absolute;
+	 margin-left: 110px;
+	 margin-top: -20px;
+
+}
+
+.subject-add-quick-comment > .comment-added{
+	display: none;
+	   float: right;
+	 color: green;
+	 font-weight: bolder;
+	 font-size: 12px;
+	  margin:5px;
+
+	margin-right: 10px;
+
+}
+
+
+/*============================================================================*/
+/*==============STYLE FOR HIDDEN DIVS CREATE SUBJECT ROOM CATEGORY.....=======*/
+/*============================================================================*/
+
+#create-subject-div,#edit-subject-div,#create-room-div,#create-category-div,#create-admin-div{
+	width: 380px;
+	 height: 380px;
+	  padding: 10px;
+	 margin: auto;
+	 margin-top: 10%;
+	 background: #fff;
+	 border:1px solid #ccc;
+	 border-radius: 5px;
+
+ padding-bottom: 0px;
+
+}
+
+#create-room-div,#create-category-div{
+	height: 280px;
+
+}
+
+#create-admin-div{
+	height: 385px;
+
+}
+
+
+#create-subject-div > div,#edit-subject-div > div,#create-room-div > div,#create-category-div > div,#create-admin-div > div{
+	width: 100%;
+	 float: left;
+
+}
+
+.create-subject-header,.edit-subject-header,.create-room-header,.create-category-header,.create-admin-header{
+	height: 20px;
+	 font-size: 23px;
+	 text-align: center;
+	 font-weight: bolder;
+	 color: #777;
+	 padding:4px 0px;
+	 padding-bottom: 8px;
+
+}
+
+.create-subject-devider,.edit-subject-devider,.create-room-devider,.create-category-devider,.create-admin-devider{
+	height: 20px;
+	 padding-top: 10px;
+	 text-align: center;
+
+}
+
+.create-room-inputs,.create-category-inputs{
+	height: 170px;
+
+}
+
+.create-subject-inputs,.edit-subject-inputs{
+	height: 273px;
+
+}
+
+.create-subject-inputs > input,.edit-subject-inputs > input,.create-room-inputs > input,.create-category-inputs > input,.create-admin-inputs > input{
+	width: 350px;
+	 float: left;
+	 border:1px solid #ddd;
+	 color: #888;
+	 background: #efefef;
+	 	padding: 7px 5px;
+	 	font-size: 14px;
+	 margin: 9px;
+	 margin-bottom: 12px;
+
+}
+
+#create-subject-text,#edit-subject-text{
+ width:360px;
+  height: 110px;
+  color: #888;
+  background: #efefef;
+  	font-size: 14px;
+
+}
+
+#create-subject-text-div,#edit-subject-text-div{
+	width: 360px;
+	 height: 130px;
+	 float: left;
+	  margin: 9px;
+	 margin-top: 4px;
+	 margin-bottom: 12px;
+
+}
+
+
+.create-admin-inputs > select{
+	width: 360px;
+	 float: left;
+	 border:1px solid #ddd;
+	 color: #888;
+	 background: #efefef;
+	 	padding: 7px 5px;
+	 	font-size: 14px;
+	 margin: 9px;
+	 margin-bottom: 12px;
+
+}
+
+#error-create-subject,#error-esit-subject{
+	height: 10px;
+	 margin-top: 8px;
+
+}
+
+
+#create-subject-button,#edit-subject-button,#create-room-button,#create-category-button,#create-admin-button{
+	width: 350px;
+	 float: left;
+	 border:1px solid #19a1e6;
+	 text-align: center;
+	 font-weight: bolder;
+	 font-size: 15px;
+	 color: #fff;
+	 background: #59a9e6;
+	 cursor: pointer;
+	 padding: 12px 5px;
+	 margin: 9px;
+	 margin-bottom: 12px;
+
+}
+
+
+
+.create-subject-footer,.edit-subject-footer,.create-room-footer,.create-category-footer,.create-admin-footer{
+	height: 40px;
+	 text-align: center;
+	 padding-top:
+}
+
+.create-subject-footer > a,.edit-subject-footer > a,.create-room-footer > a,.create-category-footer > a,.create-admin-footer > a{
+	color: #39a9e6;
+
+}
+
+.cancel-create-subject,.cancel-edit-subject,.cancel-create-room,.cancel-create-category,.cancel-create-admin,.cancel-admin-profile{
+	padding: 4px 10px;
+	color: #fff;
+	 text-align: center;
+	 background: url(../images/vectors.png);
+	 display: block;
+	 width: 12px;
+	 height:12px;
+	 margin: auto;
+	 margin-top: 8px;
+	 cursor: pointer;
+
+}
+
+
+
+/*======= DESIGN FOR THE PROFILE PAGE*/
+#profile_image_info{
+	width: 200px;
+	 min-height: 290px;
+	 margin-top:7px;
+	 overflow: auto;
+	 float: left;
+	 padding-bottom: 15px;
+	 border:1px solid #ccc;
+	 background: #fff;
+
+}
+
+#profile_image_change,#admin-profile_image_change{
+	width: 190px;
+	 padding: 5px;
+	 cursor: pointer;
+	 height: 25px;
+	 float: left;
+	 position: absolute;
+	 background: rgba(0,0,0,0.3);
+	 color: #fff;
+	 font-weight: bolder;
+
+}
+
+#profile_image_change > span,#admin-profile_image_change > span{
+	float: left;
+	 display:  block;
+	 margin-top: 3px;
+	 width: 160px;
+	 float: right;
+
+}
+
+#profile_image_change > div,#admin-profile_image_change > div{
+	width: 25px;
+	 height: 25px;
+	 margin: 0px;
+	 float: left;
+	 margin-right: 5px;
+	 background-position: -143px -26px;
+
+}
+
+
+#profile_image{
+	width: 200px;
+	 height: 200px;
+	 float: left;
+
+}
+
+#profile_image_div{
+	width: 200px;
+	 height: 200px;
+	 float: left;
+
+}
+
+#change-avatar-loading,#admin-change-avatar-loading{
+	position: absolute;
+	 width: 28px;
+	 height: 28px;
+	 margin-left: 88px;
+	 margin-top: 100px;
+	 background-size: 28px;
+
+}
+
+
+#profile_name_display{
+	display: block;
+	 float: left;
+	 width: 190px;
+	 padding: 5px;
+	 font-size: 20px;
+	 font-weight: bolder;
+	 color: #36454F;
+
+}
+
+#profile_email_display{
+	display: block;
+	 float: left;
+	 width: 190px;
+	 padding: 5px;
+	 font-size: 13px;
+	 font-weight: bolder;
+	 color: #36454F;
+
+}
+
+#edit_profile,#update_password{
+	width: 160px;
+	 float: left;
+	 padding: 5px 10px;
+	 cursor: pointer;
+	 text-align: center;
+	 font-weight: bolder;
+	  color: #36454F;
+	 margin-left: 9px;
+	 margin-top: 5px;
+
+}
+
+
+#profile_update_inputs,#password_update_inputs{
+	width: 190px;
+	 float: left;
+	 padding: 5px;
+	 min-height: 40px;
+	 overflow: auto;
+}
+
+.red_error_item{
+float: left; color: red; font-weight: bolder; 
+}
+
+#profile_update_inputs > input,#password_update_inputs > input{
+	width: 180px;
+	 margin-left: 5px;
+
+}
+
+
+#profile-show-what,#notification-what{
+	width: 360px;
+	 height: 30px;
+	 float: right;
+	 margin-top: 35px;
+
+}
+
+#profile-show-what > div,#notification-what > div{
+	float: left;
+	 width: 130px;
+	 height: 19px;
+	 padding: 5px;
+	 color: #444;
+
+	border:1px solid #ccc;
+	 background: #eaeaea;
+	 font-weight: bolder;
+	  text-align: center;
+	 cursor: pointer;
+	 padding-top: 6px;
+	 margin-left: 35px;
+
+}
+
+
+#profile-show-what > .active{
+	border-bottom: 1px solid #004FFF
+}
+
+
+
+/*=====profile what show (my subjects and my subscriptions)*/
+#profile-right{
+	width: 900px;
+	 float: right;
+	 min-height: 400px;
+	 overflow: auto;
+	 border-left: 1px solid #ccc;
+	 padding-left: 10px;
+
+}
+
+.room-unsubscribe{
+	width: 100px;
+	 height: 20px;
+	 display: block;
+	 float: left;
+	 position: absolute;
+	 visibility: hidden;
+	 margin-top: 170px;
+	 font-weight: bold;
+	 padding-top: 3px;
+	 padding-left: 5px;
+	 margin-left: 10px;
+	 cursor: pointer;
+	 color: #36454F;
+
+}
+
+#profile-right > .room-div:hover .room-unsubscribe{
+	visibility: visible;
+
+}
+
+#profile-right > .room-div{
+	margin-left: 20px;
+	 margin-right: 40px;
+
+}
+
+
+#profile-right  > .subject{
+	margin-left: 60px;
+
+}
+
+#profile-right > .subject > .subject-user-info-date > a{
+	cursor:pointer;
+	display: block;
+	float: left;
+	 margin-left: 20px;
+	 color: #004FFF;
+
+}
+
+#profile-right > .subject > .subject-user-info-date > a:hover{
+	text-decoration: underline;
+
+}
+
+
+
+
+/*============================================================================*/
+/*==============================NOTIFICATION PAGE STYLE=======================*/
+/*============================================================================*/
+.notification{
+	width: 855px;
+	 padding: 5px 10px;
+	 float: left;
+	 height: 40px;
+	 border:1px solid #ccc;
+	 background: #fff;
+	 margin-bottom: 5px;
+	 margin-top: 10px;
+
+}
+
+.notification > img{
+	float: left;
+	 width: 40px;
+	 height: 40px;
+	 border-radius: 100px;
+	 margin-right: 10px;
+
+}
+
+.notification-info-div{
+	width: 800px;
+	 float: left;
+	  height: 40px;
+
+}
+
+.notification-info-top{
+	width: 810px;
+	 float: left;
+	 height: 15px;
+
+}
+
+.notification-user-name{
+	font-weight: bolder;
+	 font-size: 13px;
+	 color: #004FFF;
+	 display: block;
+	 float: left;
+
+}
+
+.notification-date{
+ font-size: 12px;
+  color: #888;
+  display: block;
+  float: right;
+  margin-top: 5px;
+
+}
+
+.notification-text-page{
+	width: 800px;
+	 float: left;
+	 height: 25px;
+
+}
+
+.notification-icone-action{
+	width: 25px;
+	 height: 25px;
+	 float: left;
+	 margin-right: 8px;
+
+}
+
+.notification-span-text{
+	color: #333;
+	 float: left;
+	 display: block;
+	 margin-top: 5px;
+
+}
+
+
+ #right-notification-list{
+ 	width: 300px;
+ 	 min-height: 70px;
+ 	 overflow: auto;
+ 	 float: left;
+ 	 margin-top: 15px;
+
+ }
+
+
+
+
+.create-subject-success,.create-admin-success,.edit-subject-success,.admin-profile-success,.reset-success{
+	width: 24px;
+	 height: 24px;
+	 float: right;
+	 margin-right: 15px;
+	 background: url(../images/ok.png);
+	 position: absolute;
+	 margin-left: 315px;
+	 margin-top: -20px;
+
+}
+
+.create-subject-loading,.create-admin-loading,.edit-subject-loading,.admin-profile-loading,.reset-loading{
+	width: 24px;
+	 height: 24px;
+	 float: right;
+	 margin-right: 15px;
+	 background-size: 24px;
+	 position: absolute;
+	 margin-left: 315px;
+	 margin-top: -20px;
+
+}
+
+
+
+.loadin-filter{
+	float: left;
+	 width: 24px;
+	 height: 24px;
+	 background-size: 24px;
+	 margin-left: -30px;
+
+}
+
+.notifi-icon{
+	margin: 0px;
+	 margin-top: 4px;
+	 margin-right: 3px;
+
+}
+
+
+#user-menu-show{
+	width: 24px;
+	 height: 24px;
+	 float: left;
+	 background: url(../images/show.png);
+	 cursor: pointer;
+	 background-position: -5px 0px;
+	 margin-left: 17px;
+
+}
+
+#responsive-top-menu{
+	width: 120px;
+	 height: 24px;
+	 float: right;
+	 margin-top: 14px;
+	 visibility: hidden;
+
+}
+
+
+.responsive-nav-user{
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	 float: right;
+	  width: 90%;
+	 background: #fff;
+	 padding: 5px 0px;
+	  display: none;
+	 visibility: hidden;
+
+}
+
+.responsive-nav-user > li{
+	float: left;
+	 display: block;
+	 line-height: 2em;
+	 width: 90%;
+	 margin-left: 5%;
+	 text-align: center;
+	 padding-top: 5px;
+	 padding-bottom: 5px;
+	 border-bottom: 1px solid #ddd;
+
+}
+
+.responsive-nav-user > li >a{
+	color: #6a7988;
+	border-radius: 0px;
+	padding: 0px;
+	 display: block;
+	 font-size: 15px;
+	 width: 100%;
+
+}
+
+.responsive-nav-user > li:last-of-type{
+	border-bottom: 0px;
+
+}
+
+
+.responsive-nav-user > li:hover{
+	background: #59a9e6;
+	 font-weight: bolder;
+
+}
+
+.responsive-nav-user > li:hover > a{
+	color: #fff;
+
+}
+
+#create-new-room{
+	float: right;
+
+}
+
+#room-numbers-info{
+	float: left;
+
+}
+
+/*
+=========================================================================================
+=========================== R E S P O N S I V E    D E S I G N ==========================
+=========================================================================================
+*/
+@media screen and (min-width: 302px) and (max-width: 1210px) {
+
+	#container{
+	 width: 100%;
+
+	}
+
+	#left-container,#profile-right{
+		width: 100%;
+		 float: left;
+		 overflow: auto;
+		 text-align: center;
+
+	}
+
+	.see-more-wide-div{
+		width: 100%;
+		 margin-top: 10px;
+		 margin-bottom: 30px;
+
+	}
+
+	.see-more-home{
+		display: block;
+		 float: none;
+		 margin: auto;
+		 padding: 3px 10px;
+		 padding-top: 5px;
+		 width: 150px;
+
+	}
+
+	.left-container-section-title{
+		width: 100%;
+		 height: 30px;
+		  padding: 5px;
+		 padding-left: 0px;
+		 padding-right: 0px;
+
+	}
+
+	.last-categories-list,.last-admins-list,.last-rooms-list,#subjects-list,.notification-page-list,#profile-right-subjects{
+		width: 100%;
+		 float: none;
+		 margin: auto;
+
+	}
+
+	#side_bar_right{
+		width: 302px;
+		 min-height: 290px;
+		 float: none;
+		 margin:auto;
+		  overflow: auto;
+		 margin-top: 50px;
+
+	}
+
+	#right-container,#publicity-right{
+		width: 300px;
+		 min-height: 100px;
+		 background: #fff;
+		 border:1px solid #ccc;
+		 float: left;
+		 overflow: auto;
+		 margin-bottom: 20px;
+
+	}
+
+	#advetising-div{
+		width: 280px;
+		 height: 250px;
+		 margin: 10px;
+		 float: left;
+		 background: #eee;
+		 color: #777;
+		 font-size: 38px;
+		 font-weight: bolder;
+		 text-align: center;
+
+	}
+
+	.category-div,.room-div{
+	 float: none;
+	  display: inline-block;
+	  margin: 10px;
+
+	}
+
+	#subject-room-top-div,#notifications-top-div{
+		min-width: 100%;
+		 left:0px;
+		 height: auto;
+		 min-height: 100%;
+		 overflow: auto;
+		 right:0px;
+		 z-index: 1;
+
+	}
+
+	#subject-room-div-insider,#notifications-top-div-insider{
+		width: 100%;
+		 height: 100px;
+		 margin: auto;
+
+	}
+
+	#room-name-display,#title-header{
+		font-size: 24px;
+		width: 100%;
+		 float: left;
+		 text-align: center;
+		 margin-top: 10px;
+
+	}
+
+	#room-image-display{
+		float: none;
+		 margin: auto;
+		 margin-right: none;
+		 margin-top: 10px;
+
+	}
+
+	#room-numbers-info{
+		width:100%;
+		 float: left;
+		 text-align: center;
+		 margin-top: 10px;
+
+	}
+
+	#room-subject-number-display{
+		height: 14px;
+		 padding: 5px;
+		 float: none;
+		 margin-left: none;
+		 margin: auto;
+		 display: inline-block;
+
+	}
+
+	#room-some-followers{
+		width: 90%;
+		 height: 30px;
+		 float: left;
+		 position: relative;
+		 margin-top: 10px;
+		 margin-left: 5%;
+		 text-align: center;
+
+	}
+
+	#room-some-followers > img{
+		float: none;
+		 margin-right: none;
+		 margin: auto;
+		 display: inline-block;
+
+	}
+
+	#room-subject-sort-by{
+		width: 100%;
+		 float: left;
+		 margin-top: 5px;
+		  text-align: center;
+
+	}
+
+	#room-subject-sort-by > span{
+		float: none;
+		 display: inline-block;
+		 margin:auto;
+		 margin-top: 6px;
+
+	}
+
+	#room-subject-sort-by > select{
+	 float: none;
+	  display: inline-block;
+	  margin:auto;
+	 margin-top: 5px;
+
+	}
+
+	#subject-and-room-responsive-action{
+		width: 100%;
+		 float: left;
+		 text-align: center;
+		  margin-bottom: 10px;
+
+	}
+
+	#create-new-subject{
+		position: relative;
+		 margin: auto;
+		 display: inline-block;
+		 width: 130px;
+		 height: 19px;
+		 padding: 5px;
+		 color: #444;
+		 margin-left: none;
+		 margin-top: 5px;
+		 text-align: center;
+		  padding-top: 6px;
+
+	}
+
+	#Follow-Room{
+		position: relative;
+		 margin: auto;
+		 display: inline-block;
+		 width: 100px;
+		 height: 19px;
+		 padding: 5px;
+		 color: #444;
+		 margin-left: none;
+		 margin-top: 5px;
+		  text-align: center;
+		  padding-top: 6px;
+
+	}
+
+	#profile-show-what,#notification-what{
+		width: 100%;
+		 height: auto;
+		 min-height: 30px;
+		 overflow: auto;
+		 float: left;
+		 margin-top: 10px;
+
+	}
+
+	#create-new-room{
+		float: none;
+		 margin: auto;
+
+	}
+
+	#profile-show-what > div,#notification-what > div{
+		float: none;
+		 width: 130px;
+		  margin-left: none;
+		 margin: auto;
+		 margin-bottom: 10px;
+
+	}
+
+	#profile-show-what > .active{
+		border-bottom: 1px solid #004FFF
+	}
+
+	
+	#theListOsSubjects,#theList-of-my-subjects{
+		width: 90%;
+		 float: left;
+		 margin-left: 5%;
+		 margin-top: 50px;
+
+	}
+
+	.subject{
+	 min-height: 70px;
+	  float: none;
+	  margin:auto;
+	  display:inline-block;
+	  padding-bottom: 15px;
+	  margin-bottom: 30px;
+
+	}
+
+	.comment-display-text,.subject-title-and-text{
+		text-align: left;
+
+	}
+
+	#profile-right  > .subject{
+		margin-left: 0px;
+
+	}
+
+	#profile_image_info{
+		width: 200px;
+		 min-height: 290px;
+		 margin-top:7px;
+		 overflow: auto;
+		 float: none;
+		 margin: auto;
+		 padding-bottom: 15px;
+		 border:1px solid #ccc;
+		 background: #fff;
+
+	}
+
+
+	#connected-user-avatar-responsive{
+		display: block;
+
+	}
+
+
+}
+
+
+@media (min-width: 300px ) and (max-width: 1090px) {
+
+	#connected-user-header{
+	 display: none;
+
+	}
+
+	#responsive-top-menu{
+	 visibility: visible;
+
+	}
+
+	.responsive-nav,.responsive-nav-user{
+	 visibility: visible;
+
+	}
+
+	#log-out-user{
+	 margin-top: 0px;
+	  margin-left: 8px;
+
+	}
+
+	#notification-user{
+	 margin-top: -2px;
+	  margin-left: 20px;
+
+	}
+
+
+
+}
+
+
+@media (min-width: 320px ) and (max-width: 890px) {
+
+	#theListOsSubjects{
+		width: 90%;
+		 float: left;
+		 margin-left: 5%;
+		 margin-top: 50px;
+
+	}
+
+	.subject{
+		width: 100%;
+		 min-height: 70px;
+		 float: none;
+		 margin:auto;
+		 display:inline-block;
+		 padding-bottom: 15px;
+		 margin-bottom: 30px;
+
+	}
+
+	.subject-last-comments{
+		width: 96%;
+		 float: right;
+		 margin-right: 2%;
+
+	}
+
+	.comment{
+		width:96%;
+		 margin-left: 2%;
+		 float: left;
+
+	}
+
+	.likes-comment-num-text{
+		float: left;
+
+	}
+
+	.comment-display-like{
+		display: block;
+		  color: #004FFF;
+		 cursor: pointer;
+
+	}
+
+	.comment-like-number{
+		display: block;
+		 float: left;
+		 margin-right: 5px;
+		 color:  #004FFF;
+
+	}
+
+	.subject-add-quick-comment{
+		width: 96%;
+		 float: left;
+		 margin-left: 2%;
+
+	}
+
+	.subject-quick-comment-textarea{
+		width: 94%;
+		 margin-left: 2%;
+		 float: left;
+		 padding-left: 1%;
+		 padding-right: 1%;
+
+	}
+
+	.subject-quick-comment-textarea:focus{
+		color: #222;
+
+	}
+
+	.subject-actions-left{
+		width: 100px;
+
+	}
+
+
+}
+
+
+@media (min-width: 720px ) and (max-width: 890px) {
+
+.subject-user-info-date,.subject-actions{
+	width: 90%;
+	 margin-right: 20px;
+	 float: right;
+
+}
+
+	.subject-title-and-text{
+		width: 90%;
+		 font-size: 13px;
+		 margin-right:20px;
+		 float: right;
+		 text-align: left;
+
+	}
+
+.comment-user-info-date{
+	width: 90%;
+	 float: left;
+	 height: 15px;
+	  margin-top: 12px;
+
+}
+
+	.comment-display-text{
+		width: 90%;
+		 float: left;
+		 min-height: 10px;
+		 overflow: auto;
+		 color: #111;
+		 margin-top: 3px;
+		 text-align: left;
+
+	}
+
+
+}
+
+
+@media (min-width: 590px ) and (max-width: 720px) {
+
+.subject-user-info-date,.subject-actions{
+	width: 88%;
+	 margin-right: 20px;
+	 float: right;
+
+}
+
+	.subject-title-and-text{
+		width: 88%;
+		 font-size: 13px;
+		 margin-right:20px;
+		 float: right;
+		 text-align: left;
+
+	}
+
+.comment-user-info-date{
+	width: 88%;
+	 float: left;
+	 height: 15px;
+	  margin-top: 12px;
+
+}
+
+.comment-display-text{
+	width: 88%;
+	 float: left;
+	 min-height: 10px;
+	 overflow: auto;
+	 color: #111;
+	 margin-top: 3px;
+	 text-align: left;
+
+}
+
+
+}
+
+
+@media (min-width: 480px ) and (max-width: 590px) {
+
+.subject-user-info-date,.subject-actions{
+	width: 84%;
+	 margin-right: 20px;
+	 float: right;
+
+}
+
+	.subject-title-and-text{
+		width: 84%;
+		 font-size: 13px;
+		 margin-right:20px;
+		 float: right;
+		 text-align: left;
+
+	}
+
+.comment-user-info-date{
+	width: 84%;
+	 float: left;
+	 height: 15px;
+	  margin-top: 12px;
+
+}
+
+.comment-display-text{
+	width: 84%;
+	 float: left;
+	 min-height: 10px;
+	 overflow: auto;
+	 color: #111;
+	 margin-top: 3px;
+	 text-align: left;
+
+}
+
+.subject-actions-left{
+	width: 100%;
+
+}
+
+.subject-actions{
+	height: auto;
+	 min-height: 40px;
+	 overflow: auto;
+
+}
+
+.subject-actions-right{
+	width:300px;
+	float: left;
+
+}
+
+
+}
+
+
+@media (min-width: 300px ) and (max-width: 480px) {
+
+.subject-user-info-date,.subject-actions{
+	width: 80%;
+	 margin-right: 20px;
+	 float: right;
+
+}
+
+	.subject-title-and-text{
+		width: 80%;
+		 font-size: 13px;
+		 margin-right:20px;
+		 float: right;
+		 text-align: left;
+
+	}
+
+.comment-user-info-date{
+	width: 80%;
+	 float: left;
+	 height: 15px;
+	  margin-top: 12px;
+
+}
+
+	.comment-display-text{
+		width: 80%;
+		 float: left;
+		 min-height: 10px;
+		 overflow: auto;
+		 color: #111;
+		 margin-top: 3px;
+		 text-align: left;
+
+	}
+
+	.subject-actions{
+		height: auto;
+		 min-height: 40px;
+		 overflow: auto;
+
+	}
+
+	.subject-actions-right{
+		float: left;
+
+	}
+
+
+}
+
+
+
+
+/*Respomsive design for the create Subject and Room*/
+/*Create new subject hidden div and edit subject*/
+@media screen and (min-width: 300px) and (max-width: 420px) {
+
+	#create-subject-div,#edit-subject-div,#create-room-div,#create-category-div,#create-admin-div{
+		width: 90%;
+		 height: 320px;
+		 margin-top: 10px;
+
+	}
+
+	#create-room-div,#create-category-div{
+		height: 260px;
+
+	}
+
+	#create-admin-div{
+		height: 350px;
+
+	}
+
+	.user-action{
+	 margin: auto;
+	  margin-top: 10px;
+
+	}
+
+	#create-subject-div > div,#edit-subject-div > div,#create-room-div > div,#create-category-div > div,#create-admin-div > div{
+		width: 100%;
+		 float: left;
+
+	}
+
+
+	.create-subject-header,.edit-subject-header,.create-room-header,.create-category-header,.create-admin-header{
+		height: 20px;
+		 font-size: 18px;
+		 text-align: center;
+		 font-weight: bolder;
+		 color: #777;
+		 padding:4px 0px;
+		 padding-bottom: 5px;
+
+	}
+
+
+	.create-subject-devider,.edit-subject-devider,.create-room-devider,.create-category-devider,.create-admin-devider{
+		height: 20px;
+		 padding-top: 5px;
+		 text-align: center;
+
+	}
+
+	.user-action-devider > span{
+		font-size: 15px;
+		 font-weight: bolder;
+
+	}
+
+
+	.create-subject-inputs > input,.edit-subject-inputs > input,.create-room-inputs > input,.create-category-inputs > input,.create-admin-inputs > input{
+		width: 90%;
+		 float: left;
+		 border:1px solid #ddd;
+		 color: #888;
+		 background: #efefef;
+
+		padding: 5px 0px;
+		font-size: 14px;
+		 margin: 9px;
+		 margin-left: 5%;
+		  margin-bottom: 6px;
+		 margin-top: 6px;
+
+	}
+
+	#create-subject-text,#edit-subject-text{
+	 height: 80px;
+	  width: 294px;
+
+	}
+
+	#create-subject-text-div,#edit-subject-text-div{
+		width: 90%;
+		 height: 100px;
+		 margin-left: 16px;
+
+	}
+
+
+
+	#create-subject-button,#edit-subject-button,#create-room-button,#create-category-button,#create-admin-button{
+		width: 90%;
+		  padding: 8px 0px;
+		 margin: 9px;
+		 margin-left: 5%;
+		 margin-bottom: 6px;
+
+	}
+
+	.cancel-create-subject,.cancel-edit-subject,.cancel-create-room,.cancel-create-category,.cancel-create-admin,.cancel-admin-profile{
+		padding: 4px 10px;
+		color: #fff;
+		 text-align: center;
+		 background: url(../images/vectors.png);
+		 display: block;
+		 width: 12px;
+		 height:12px;
+		 margin: auto;
+		 margin-top: 8px;
+		 cursor: pointer;
+
+	}
+
+	.sign-up-success,.login-success{
+		width: 24px;
+		 height: 24px;
+		 float: right;
+		 margin-right: 15px;
+		 background: url(../images/ok.png);
+		 position: absolute;
+		 margin-left: 315px;
+		 margin-top: -20px;
+
+	}
+
+	.sign-up-loading,.login-loading{
+		width: 24px;
+		 height: 24px;
+		 float: right;
+		 margin-right: 15px;
+		 background-size: 24px;
+		 position: absolute;
+		 margin-left: 315px;
+		 margin-top: -20px;
+
+	}
+
+	.create-admin-inputs > select{
+		width: 92%;
+
+	}
+
+
+	.create-room-inputs,.create-category-inputs{
+		height: 152px;
+
+	}
+
+	.create-subject-inputs{
+		height: 222px
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.smileypng{margin-left: 3px; height: 15px; width: 15px; margin-bottom: -2px; margin-right: 3px; display: inline-block; background-image: url(../images/smiley.png); }

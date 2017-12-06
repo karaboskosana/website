@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+</head>
+<body>
+
+
+  <div data-role="main" class="ui-content" align="center">
+
+    <div data-role="popup" id="myPopup" class="ui-content" style="min-width:250px;">
+      <form method="post" action="registration.php" >
+        <div>
+          <h3>Registration Details</h3>
+         <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group mb-30">
+            <input placeholder="Enter Name and Surname" type="text" id="name_surname" name="name_surname" required="" class="form-control">
+          </div>
+        </div><br></br>
+        <div class="col-sm-6">
+          <div class="form-group mb-30">
+            <input placeholder="Email" type="text" id="email" name="email" class="form-control" required="">
+          </div>
+        </div><br></br>
+        <div class="col-sm-6">
+          <div class="form-group mb-30">
+            <input placeholder="Phone" type="text" id="phone" name="phone" class="form-control" required="">
+          </div>
+        </div><br></br>
+        <div class="col-sm-6">
+          <div class="form-group mb-30">
+            <div class="styled-select">
+              <select id="selectProgramme" name="selectProgramme" class="form-control" required="">
+                <option value="">-Choose programme -</option>
+                <option value="Google Digital ICT Skills">Google Digital ICT Skills</option>
+                <option value="Oracle Java Programme">Oracle Java Programme</option>
+                <option value="TVET ICT Skills">TVET ICT Skills</option>
+                <option value="Cisco Networking Academy">Cisco Networking Academy</option>
+              </select>
+            </div>
+          </div>
+        </div><br></br>
+          <div class="col-sm-6">
+          <div class="form-group mb-30">
+            <div class="styled-select">
+              <select id="registerType" name="registerType" class="form-control" required="">
+                <option value="">-Register as -</option>
+                <option value="Trainee">Trainee</option>
+                <option value="Trainer">Trainer</option>
+                <option value="Co-Ordinator">Co-Ordinator</option>
+                <option value="Institution">Institution</option>
+              </select>
+            </div>
+          </div>
+        </div><br></br>
+          
+          <div class="col-sm-6">
+          <div class="form-group mb-30">
+            <div class="styled-select">
+              <select id="nearestTown" name="nearestTown" class="form-control" required="">
+                <option value="">-Choose nearest town/city -</option>
+                <option value="Cape Town">Cape Town</option>
+                <option value="Johannesburg">Johannesburg</option>
+                  <option value="Heidelburg">Heidelburg</option>
+                <option value="Durban">Durban</option>
+                <option value="Petermartzburg">Petermartzburg</option>
+                  <option value="Newcastle">Newcastle</option>
+                  <option value="Stanger">Stanger</option>
+                  <option value="oracle">Richards Bay</option>
+                  <option value="Pongola">Pongola</option>
+                  <option value="Vryheid">Vryheid</option>
+                  <option value="uMtata">uMtata</option>
+                  <option value="East London">East London</option>
+                  <option value="Port Elizabeth">Port Elizabeth</option>
+                  <option value="Bloemfontein">Bloemfontein</option>
+                  <option value="Welkom">Welkom</option>
+                  <option value="Polokwane">Polokwane</option>
+                  <option value="Musina">Musina</option>
+                  <option value="Pretoria">Pretoria</option>
+                  <option value="Rusternburg">Rusternburg</option>
+                  <option value="Kimberly">Kimberly</option>
+              </select>
+            </div>
+          </div>
+        </div><br></br>
+
+            <button type="submit" class="btn btn-colored btn-theme-colored btn-lg btn-flat border-left-theme-colored-4px" 
+			 a href="#">Submit Now</button>
+          </div>
+        </div>
+      </div>
+ 
+
+</body>
+</html>
